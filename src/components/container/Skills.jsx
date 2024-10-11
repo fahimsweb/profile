@@ -1,7 +1,7 @@
 import React from "react";
 import { BiLogoTypescript } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { mappedSkills } from '@/constants/mapping';
+import { mappedSkills } from "@/constants/mapping";
 
 function Skills() {
   const variants = {
@@ -19,21 +19,19 @@ function Skills() {
       className="flex min-h-[70vh] flex-col items-center justify-center gap-16 md:gap-32"
     >
       <h2 className="text-4xl font-light text-white">Technical Skillset</h2>
-      <div className="flex flex-wrap  w-[50%] items-center justify-center gap-20 p-5">
-			  {mappedSkills.map((skill) => (
+      <div className="flex w-[50%] flex-wrap items-center justify-center gap-20 p-5">
+        {mappedSkills.map((skill) => (
           <motion.div
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.5 }}
             key={skill.name}
-						className='flex flex-col items-center justify-center'
+            className="flex flex-col items-center justify-center"
           >
             <div className="cursor-pointer text-[60px] transition-all duration-300 hover:-translate-y-5 sm:text-[80px] md:text-[60px]">
               {skill.icon}
             </div>
-            <span className='text-white py-3'>
-              {skill.name}
-            </span>
+            <span className="py-3 text-white">{skill.name}</span>
           </motion.div>
         ))}
       </div>

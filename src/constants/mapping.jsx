@@ -31,17 +31,17 @@ const skillIconMap = {
   nodejs: <FaNodeJs className="text-yellow-500" />,
   graphql: <GrGraphQl className="text-fuchsia-500" />,
   nextjs: <RiNextjsFill className="text-gray-300" />,
-  reactnative: <SiNativescript className='text-purple-500'/>,
-  css: <FaCss3 className='text-teal-400'/>,
-  javascript: <IoLogoJavascript className='text-cyan-400' />,
-  bootstrap: <BsBootstrapFill className='text-purple-600'/>,
-  materialui: <SiMui className='text-red-200'/>,
-  aws: <FaAws className='text-orange-600'/>,
-  docker: <FaDocker className='text-sky-300'/>,
-  git: <FaGitAlt className='text-red-600'/>,
-  java: <FaJava className='text-blue-400'/>,
-  expressjs: <FaNodeJs className='text-green-400'/>,
-  python: <FaPython className='text-yellow-400'/>,
+  reactnative: <SiNativescript className="text-purple-500" />,
+  css: <FaCss3 className="text-teal-400" />,
+  javascript: <IoLogoJavascript className="text-cyan-400" />,
+  bootstrap: <BsBootstrapFill className="text-purple-600" />,
+  materialui: <SiMui className="text-red-200" />,
+  aws: <FaAws className="text-orange-600" />,
+  docker: <FaDocker className="text-sky-300" />,
+  git: <FaGitAlt className="text-red-600" />,
+  java: <FaJava className="text-blue-400" />,
+  expressjs: <FaNodeJs className="text-green-400" />,
+  python: <FaPython className="text-yellow-400" />,
 };
 
 // Map the skills to their icons
@@ -49,6 +49,8 @@ export const mappedSkills = PROFILE.skills.map((skill) => {
   const skillName = skill.replace(/\s/g, "").toLowerCase();
   return {
     name: skill,
-    icon: skillIconMap[skillName] || <TbPlaceholder className='text-yellow-300'/>, // Fallback to Placeholder Icon if no icon is found
+    icon: skillIconMap[skillName] || (
+      <TbPlaceholder className="text-yellow-300" />
+    ), // Fallback to Placeholder Icon if no icon is found
   };
 });
