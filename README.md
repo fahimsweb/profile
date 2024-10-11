@@ -4,7 +4,16 @@ This is an open-source starter Profile Portfolio template built with **React**, 
 
 Feel free to **customize and extend** it, and of course, contributions are always welcome!
 
-Personal information is defined in `src/constants/profile.json`
+![Profile Template](preview.png)
+
+## Tech Stack
+
+- React
+- Vite
+- Framer Motion
+- TailwindCss
+- React-Icons
+- Prettier
 
 ## Getting Started
 
@@ -26,8 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Customization
 
-###Background
-https://bg.ibelick.com/
+Configure personal information by updating your details to `src/constants/profile.json`
 
 ## Contributing to the Project
 
