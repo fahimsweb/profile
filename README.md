@@ -1,6 +1,6 @@
 # Profile Template
 
-This is an open-source starter Profile Portfolio template built with **React**, **Framer**, **TailwindCss**, and some cool **React Icons**. It’s a minimalist setup to help you get started and personalize it as you wish.
+This is an open-source starter Profile Portfolio template built with **React**, **Framer Motion**, **TailwindCss**, and some cool **React Icons**. It’s a minimalist setup to help you get started and personalize it as you wish.
 
 Feel free to **customize and extend** it, and of course, contributions are always welcome!
 
@@ -23,6 +23,11 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Customization
+
+###Background
+https://bg.ibelick.com/
 
 ## Contributing to the Project
 
