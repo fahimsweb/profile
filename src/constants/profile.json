@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Fahim Mohammed",
+    "url": "https://github.com/fahimsweb/profile",
+    "email": "thefmcoder@gmail.com",
+    "github": "https://github.com/fahimsweb",
+    "linkedIn": "https://www.linkedin.com/in/fahimsweb",
+    "about": "A frontend software engineer with extensive experience in developing high-performance, user-centric web applications. I focus on delivering clean, maintainable code and creating intuitive user experiences. With a passion for continuous learning and collaboration, I thrive on tackling complex challenges and contributing to innovative solutions. Let’s connect!",
+    "skills": [
+      "JavaScript",
+      "Typescript",
+      "React",
+      "Vuejs",
+      "Angular",
+      "NextJS",
+      "Material UI",
+      "Bootstrap",
+      "NodeJs",
+      "React Native",
+      "ExpressJs",
+      "HTML",
+      "CSS",
+      "Aws",
+      "Docker",
+      "Git"
+    ]
+  }
+]
